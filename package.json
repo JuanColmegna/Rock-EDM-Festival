@@ -1,0 +1,34 @@
+{
+  "name": "festival-musica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "css": "gulp css"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Juan Colmegna",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^6.0.5",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser-js": "^5.2.2",
+    "gulp-webp": "^5.0.0",
+    "postcss": "^8.4.35",
+    "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.18"
+  }
+}
